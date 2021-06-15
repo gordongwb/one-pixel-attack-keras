@@ -12,8 +12,8 @@ from keras.callbacks import LearningRateScheduler, TensorBoard, ModelCheckpoint
 from keras.models import Model, load_model
 from keras import optimizers
 from keras import regularizers
-from keras.utils import plot_model
-
+# from keras.utils import plot_model 
+from tensorflow.keras.utils import plot_model 
 from networks.train_plot import PlotLearning
 
 # Code taken from https://github.com/BIGBALLON/cifar-10-cnn
